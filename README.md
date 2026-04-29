@@ -1,91 +1,78 @@
-# AI Adoption & Productivity Impact Dashboard
+# Six Sigma & SQC Analysis — Swiggy Delivery Time Optimization
 
-An interactive Power BI dashboard analyzing AI tool adoption, usage trends, and productivity impact across sectors, experience levels, and countries.
+A structured statistical quality control study evaluating food delivery time as a critical service metric — assessing process stability, variability, and capability against defined service standards.
 
 ---
 
 ## 🎯 Objective
 
-Most organizations are making AI implementation decisions based on assumptions, not data.
-
-This dashboard measures how AI tools actually influence productivity across industries, experience levels, and regions — giving decision-makers a clear picture of what's working and for whom.
+Delivery time directly affects customer satisfaction and operational efficiency. This project applies Six Sigma and SQC tools to determine whether Swiggy's delivery process is not just stable, but actually capable of meeting service standards — two things that are not the same.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tools & Techniques
 
 | Tool | Purpose |
 |---|---|
-| Power BI Desktop | Data visualization & reporting |
-| Power Query | Data transformation & cleaning |
-| DAX | KPI calculations & performance metrics |
-| Data Modeling | Cross-sector & cross-tool analysis |
-| File Format | `.pbix` |
+| Check Sheet | Structured delay classification |
+| Pareto Analysis | Identify major delay contributors |
+| Fishbone Diagram | Root cause identification |
+| Histogram | Delivery time distribution analysis |
+| X̄–R Control Charts | Process stability monitoring |
+| Process Capability Analysis | Cp & Cpk measurement against specifications |
+| Quality Frameworks | QC, QA, and ISO 9001 perspective |
 
 ---
 
-## 📂 Data Source
+## 📂 Data
 
-Cross-industry AI usage & productivity dataset spanning 2022–2024:
-
-- AI tools tracked — ChatGPT, Claude, Gemini, GitHub Copilot, Notion AI, Perplexity
-- Sector-wise adoption — IT, Marketing, Finance, Healthcare
-- Experience groups — Student, Mid-Career, Senior
-- Country-level usage patterns
-- Productivity impact ratings
-- Purpose of use — writing, coding, ideation, research, data analysis
+Delivery time dataset structured into rational subgroups for X̄–R control chart analysis. Dataset covers multiple traffic conditions and time periods to capture operational variability across real-world scenarios.
 
 ---
 
-## 📊 Key Visuals
+## 📊 Key Findings
 
-**1. Executive KPI Panel**  
-1K total AI users · 3.48 avg. productivity score · 24.40% high-impact users — headline numbers above the fold.
+**Process stability:** Statistically stable — all data points within control limits.
 
-**2. AI Adoption Trend** *(Line & Bar Chart)*  
-Tracks user growth from 2022 to 2024, surfacing acceleration points in adoption.
+**Process capability:** Not meeting specifications consistently.
 
-**3. Most Used AI Tools** *(Bar Chart)*  
-Ranks Claude, ChatGPT, Perplexity, Notion AI, and others by usage frequency.
+| Metric | Value | Interpretation |
+|---|---|---|
+| Cp | 0.457 | Process spread exceeds specification width |
+| Cpk | 0.407 | Process is off-center and underperforming |
 
-**4. Avg. Productivity by AI Tool**  
-Compares tool performance scores — not just popularity, but actual measured impact.
+A Cp and Cpk below 1.0 means the process cannot reliably deliver within defined time limits — even when it appears "in control."
 
-**5. Sector-wise Productivity Matrix**  
-Shows which industries respond best to which AI tools.
+**Root causes identified:**
+- Traffic congestion
+- Restaurant preparation delays
+- Delivery partner allocation inefficiencies
+- System-level demand-resource misalignment
 
-**6. Experience & Impact Distribution**  
-Breaks down productivity gains by student, mid-career, and senior professionals.
+**Dominant operating condition:** Medium and low traffic scenarios drove the majority of workload — improvement focus should target these, not peak hours.
 
-**7. Purpose of AI Usage** *(Donut Chart)*  
-Dominant use cases: ideation, writing, coding, research, and analysis.
+---
 
-**8. Country-wise Impact Analysis** *(Page 2)*  
-Compares high-impact vs. low-impact AI users across regions.
+## 💡 Core Insight
+
+> A process can be statistically stable yet operationally underperforming.  
+> Capability — not just control — defines service excellence.
+
+Stability tells you the process is consistent. Capability tells you whether that consistent performance is actually good enough. This project demonstrates that distinction with real data.
 
 ---
 
 ## 💼 Business Impact
 
-| Area | What It Enables |
-|---|---|
-| Strategic AI Investment | Choose tools with proven productivity returns, not just hype |
-| Sector Implementation | Prioritize industries where AI delivers the highest gains |
-| Workforce Optimization | Tailor AI adoption strategies by experience level |
-| Adoption Planning | Drive digital transformation with data, not assumptions |
-| Performance Benchmarking | Measure AI effectiveness with real metrics, not anecdotes |
-
----
-
-## 🔗 Related Work
-
-This dashboard extends the findings from a primary research study — *Measuring the Impact of AI Tools on Students' Productivity* (n=388, North Gujarat, 2024) — moving from survey-based insights to cross-industry visual analysis.
-
-→ [View the research study](#) *(link repo once uploaded)*
+- Applies Six Sigma tools in a digital service environment
+- Differentiates between statistical stability and process capability — a distinction most operational teams miss
+- Translates Cp/Cpk outputs into actionable improvement strategies
+- Recommends structured quality management interventions targeting variability reduction
+- Demonstrates end-to-end SQC methodology from data collection to business recommendation
 
 ---
 
 ## 👤 Built by
 
-**Shreyans Jain** — Business Analyst · Power BI Developer  
-[LinkedIn](https://www.linkedin.com/in/shreyansjainn/) · [Portfolio](https://www.notion.so/Shreyans-Jain-s-Portfolio-2e748001fb70801e9400d5a0adc59544) · [GitHub](https://github.com/shreyans-20)
+**Aadhya Patel** — Business Analyst · Power BI Developer  
+[LinkedIn](https://www.linkedin.com/in/aadhyapatel) · [Portfolio](https://www.notion.so/Aadhya-Patel-s-Portfolio-747f85f9826c42638cbb5e2384817905) · [GitHub](https://github.com/aadhyadpatel47)
